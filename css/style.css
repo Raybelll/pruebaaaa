@@ -1,0 +1,136 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+/* celular */
+@media (max-width: 480px) {
+   
+    section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 300px;
+        margin: 10px;
+    }
+    img {
+        width: 300px;
+    }
+    h1 {
+        font-size: 10px;
+        
+    }
+    .testimonios {
+        width: 200px;
+        margin: 5px;
+    }
+
+}
+body {
+    background-image: radial-gradient(circle at top left , rgb(47, 47, 218) 10%, rgb(113, 125, 219) 20%, white 70%);
+    background-size: 500px 500px;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.boton {
+    background-color: rgb(42, 42, 213);
+    color: white; 
+    padding: 15px 32px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    margin: 4px 2px; 
+    cursor: pointer; 
+    border-radius: 12px; 
+    transition: background-color 0.3s ease; 
+    text-shadow: none;
+}
+section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px;
+    margin: 50px;
+}
+h1 {
+    font-family: inter;
+    font-size: 58px;
+    width: 468px;
+    color: rgb(5, 5, 57);
+}
+p {
+    font-family: inter;
+    font-size: 16px;
+    width: 300px;
+}
+a {
+    font-family: inter;
+    font-size: 16px;
+    text-decoration: none;
+    color: rgb(5, 5, 57);
+}
+.centro {
+    text-align: center;
+}
+h1.centro {
+    width: 100%;
+}
+p.centro {
+    width: 100%;
+}
+h2{
+    font-family: inter;
+    font-size: 18px;
+}
+.testimonios {
+    background-color: rgb(198, 214, 221);
+    border-radius: 12px; 
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    box-shadow: 0px 3px 3px gray ;
+    padding: 20px;
+    margin: 20px;
+}
+
+.imagenTestimonios {
+    width: 200px;
+    height: 200px;
+    border: hidden 4px;
+    border-radius: 100px;
+    box-shadow: 0px 3px 3px gray ;
+    
+}
+footer {
+    background-color: rgb(5, 5, 57);
+    color: white;
+    display: flex;
+    justify-content:flex-start;
+    padding: 30px;
+    
+}
+.aFooter {
+    color: white;
+    
+}
+
+.pFooter {
+    color: white ;
+    text-align: center;
+    font-size: 10px;
+    width: 100%;
+    background-color: rgb(5, 5, 57) ;
+    margin: 0;
+    padding: 10px;
+
+}
+
+.divFooter {
+    padding:50px;
+}
+
